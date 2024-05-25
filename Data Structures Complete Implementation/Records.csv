@@ -1,0 +1,166 @@
+Records of execution time.
+Observation#:1
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),2.35e-05,3.1e-06,1.9e-06,1.19e-05,
+LinkedList(Sorted),9.2e-06,3e-07,1.6e-06,2e-07,
+LIST(STL),2.67e-05,5.3e-06,0.0001592,1.08e-05,
+BST(Iterative),1.17e-05,3e-07,2e-07,6.5e-06,
+BST(STL),2.48e-05,2.1e-06,2e-06,4.8e-06,
+HASHTABLES(chaining through division),3.74e-05,3.8e-06,5.02e-05,7.8e-06,
+HashTables(chaining through multipication),3.19e-05,3.7e-06,5.04e-05,7.7e-06,
+HashTables(openaddressing through linear probing),6.5e-06,3e-07,2.3e-06,6e-07,
+HashTables(openaddressing through Quadratic probing),1.13e-05,3e-07,3.4e-06,7e-07,
+HashTables(openaddressing through DoubleHashing),1.22e-05,3e-07,2.2e-06,8e-07,
+HashTables(STL),1.69e-05,2e-06,1.8e-06,1.5e-06,
+
+
+Observation#:2
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1.16e-05,3e-07,1.8e-06,1.3e-06,
+LinkedList(Sorted),7.3e-06,2e-07,1.5e-06,2e-07,
+LIST(STL),1.89e-05,5.4e-06,0.0001587,1e-05,
+BST(Iterative),8.9e-06,2e-07,2e-07,4e-07,
+BST(STL),2.07e-05,2.2e-06,2e-06,4.3e-06,
+HASHTABLES(chaining through division),3.33e-05,3.8e-06,5.07e-05,7.9e-06,
+HashTables(chaining through multipication),4.16e-05,3.9e-06,5.07e-05,7.6e-06,
+HashTables(openaddressing through linear probing),6.5e-06,3e-07,2.3e-06,6e-07,
+HashTables(openaddressing through Quadratic probing),1.14e-05,3e-07,3.3e-06,7e-07,
+HashTables(openaddressing through DoubleHashing),1.23e-05,3e-07,2.2e-06,8e-07,
+HashTables(STL),1.65e-05,1.9e-06,1.6e-06,1.7e-06,
+
+
+Observation#:3
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1.17e-05,3e-07,2e-06,1.5e-06,
+LinkedList(Sorted),7.6e-06,3e-07,1.6e-06,3e-07,
+LIST(STL),1.99e-05,5.3e-06,0.0001708,1.07e-05,
+BST(Iterative),9.4e-06,3e-07,3e-07,5e-07,
+BST(STL),2.17e-05,2.3e-06,2.1e-06,4.2e-06,
+HASHTABLES(chaining through division),4.84e-05,4.1e-06,5.42e-05,8.5e-06,
+HashTables(chaining through multipication),3.07e-05,4e-06,5.46e-05,8.2e-06,
+HashTables(openaddressing through linear probing),6.9e-06,3e-07,2.4e-06,7e-07,
+HashTables(openaddressing through Quadratic probing),1.23e-05,3e-07,3.6e-06,8e-07,
+HashTables(openaddressing through DoubleHashing),1.32e-05,4e-07,2.5e-06,9e-07,
+HashTables(STL),1.79e-05,2e-06,1.9e-06,1.5e-06,
+
+
+Observation#:4
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1e-05,3e-07,1.7e-06,1.4e-06,
+LinkedList(Sorted),1.04e-05,2e-07,1.6e-06,2e-07,
+LIST(STL),1.81e-05,5e-06,0.0001584,1e-05,
+BST(Iterative),8.7e-06,3e-07,2e-07,4e-07,
+BST(STL),2.03e-05,2.1e-06,2e-06,4.2e-06,
+HASHTABLES(chaining through division),2.87e-05,3.7e-06,5.04e-05,7.8e-06,
+HashTables(chaining through multipication),3.64e-05,3.7e-06,5.05e-05,7.5e-06,
+HashTables(openaddressing through linear probing),6.5e-06,4e-07,2.3e-06,8e-07,
+HashTables(openaddressing through Quadratic probing),1.14e-05,3e-07,3.4e-06,8e-07,
+HashTables(openaddressing through DoubleHashing),1.23e-05,3e-07,2.3e-06,8e-07,
+HashTables(STL),1.65e-05,1.9e-06,1.7e-06,1.3e-06,
+
+
+Observation#:5
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),9.8e-06,3e-07,1.9e-06,1.4e-06,
+LinkedList(Sorted),1.25e-05,2e-07,1.8e-06,2e-07,
+LIST(STL),4.81e-05,5.3e-06,0.0002716,1.01e-05,
+BST(Iterative),6e-06,3e-07,2e-07,4e-07,
+BST(STL),2.03e-05,2.1e-06,2.1e-06,4e-06,
+HASHTABLES(chaining through division),3.29e-05,3.7e-06,5.07e-05,8.2e-06,
+HashTables(chaining through multipication),3.02e-05,3.8e-06,5.05e-05,7.7e-06,
+HashTables(openaddressing through linear probing),6.5e-06,4e-07,2.3e-06,7e-07,
+HashTables(openaddressing through Quadratic probing),1.15e-05,3e-07,3.3e-06,7e-07,
+HashTables(openaddressing through DoubleHashing),1.22e-05,2e-07,2.3e-06,8e-07,
+HashTables(STL),1.63e-05,1.9e-06,1.7e-06,1.3e-06,
+
+
+Observation#:6
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1.61e-05,4e-07,2.4e-06,2.6e-06,
+LinkedList(Sorted),1.92e-05,5e-07,2.2e-06,4e-07,
+LIST(STL),2.74e-05,8.1e-06,0.0003122,1.79e-05,
+BST(Iterative),1.15e-05,5e-07,5e-07,7e-07,
+BST(STL),3.76e-05,4.9e-06,4e-06,1e-05,
+HASHTABLES(chaining through division),7.18e-05,7.1e-06,9.62e-05,1.47e-05,
+HashTables(chaining through multipication),5.66e-05,7e-06,0.0001036,1.59e-05,
+HashTables(openaddressing through linear probing),1.1e-05,6e-07,4.2e-06,1.1e-06,
+HashTables(openaddressing through Quadratic probing),2.3e-05,5e-07,6.3e-06,1.2e-06,
+HashTables(openaddressing through DoubleHashing),2.16e-05,6e-07,4.2e-06,1.5e-06,
+HashTables(STL),3.19e-05,3.7e-06,3.5e-06,2.4e-06,
+
+
+Observation#:7
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1.19e-05,2e-07,2e-06,1.6e-06,
+LinkedList(Sorted),7.5e-06,3e-07,1.7e-06,3e-07,
+LIST(STL),2.28e-05,5.8e-06,0.0001708,1.1e-05,
+BST(Iterative),1e-05,3e-07,3e-07,5e-07,
+BST(STL),2.21e-05,2.4e-06,2.1e-06,4.2e-06,
+HASHTABLES(chaining through division),3.1e-05,4.1e-06,5.45e-05,8.6e-06,
+HashTables(chaining through multipication),4.28e-05,4.2e-06,5.45e-05,8.3e-06,
+HashTables(openaddressing through linear probing),7e-06,3e-07,2.4e-06,8e-07,
+HashTables(openaddressing through Quadratic probing),1.23e-05,3e-07,3.6e-06,7e-07,
+HashTables(openaddressing through DoubleHashing),1.33e-05,3e-07,2.5e-06,9e-07,
+HashTables(STL),1.78e-05,2e-06,1.8e-06,1.5e-06,
+
+
+Observation#:8
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1.13e-05,3e-07,1.8e-06,1.4e-06,
+LinkedList(Sorted),7.3e-06,2e-07,1.7e-06,3e-07,
+LIST(STL),2.3e-05,5.1e-06,0.0001708,1.06e-05,
+BST(Iterative),1.01e-05,3e-07,3e-07,6e-07,
+BST(STL),2.32e-05,2.5e-06,2.4e-06,4.5e-06,
+HASHTABLES(chaining through division),3.11e-05,4.1e-06,5.45e-05,8.7e-06,
+HashTables(chaining through multipication),4.87e-05,4.1e-06,5.41e-05,8.3e-06,
+HashTables(openaddressing through linear probing),6.8e-06,3e-07,2.5e-06,8e-07,
+HashTables(openaddressing through Quadratic probing),1.16e-05,3e-07,3.6e-06,8e-07,
+HashTables(openaddressing through DoubleHashing),1.32e-05,4e-07,2.4e-06,9e-07,
+HashTables(STL),1.89e-05,2e-06,1.9e-06,1.4e-06,
+
+
+Observation#:9
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),9.8e-06,3e-07,1.9e-06,1.7e-06,
+LinkedList(Sorted),7.6e-06,3e-07,1.7e-06,3e-07,
+LIST(STL),1.75e-05,5.2e-06,0.0001706,1.04e-05,
+BST(Iterative),7e-06,3e-07,2e-07,5e-07,
+BST(STL),2.18e-05,2.3e-06,2.2e-06,4.2e-06,
+HASHTABLES(chaining through division),3.57e-05,4e-06,5.43e-05,8.5e-06,
+HashTables(chaining through multipication),3.23e-05,4e-06,5.44e-05,8.1e-06,
+HashTables(openaddressing through linear probing),7e-06,3e-07,2.4e-06,8e-07,
+HashTables(openaddressing through Quadratic probing),1.24e-05,3e-07,3.6e-06,9e-07,
+HashTables(openaddressing through DoubleHashing),1.33e-05,3e-07,2.5e-06,9e-07,
+HashTables(STL),1.76e-05,2e-06,1.9e-06,1.4e-06,
+
+
+Observation#:10
+,INSERT,SEARCH(exsist in array),SEARCH(does not exist in array),DELETE
+LinkedList(Unsorted),1.2e-05,3e-07,1.9e-06,1.5e-06,
+LinkedList(Sorted),7.5e-06,3e-07,1.8e-06,3e-07,
+LIST(STL),2.31e-05,5.9e-06,0.0001708,1.11e-05,
+BST(Iterative),1.24e-05,3e-07,2e-07,5e-07,
+BST(STL),2.24e-05,2.3e-06,2.2e-06,4.4e-06,
+HASHTABLES(chaining through division),3.1e-05,4e-06,5.43e-05,8.5e-06,
+HashTables(chaining through multipication),3.08e-05,4e-06,5.41e-05,8.2e-06,
+HashTables(openaddressing through linear probing),7.1e-06,3e-07,2.5e-06,8e-07,
+HashTables(openaddressing through Quadratic probing),1.23e-05,3e-07,3.6e-06,8e-07,
+HashTables(openaddressing through DoubleHashing),1.33e-05,3e-07,2.5e-06,9e-07,
+HashTables(STL),1.79e-05,2e-06,1.9e-06,1.5e-06,
+
+
+
+
+Averages of Functions:
+,INSERT,SEARCH(EXIST),SEARCH(DONT EXIST),DELETE
+LINKEDLIST(UNSORTED),1.277e-05,5.8e-07,1.93e-06,2.63e-06
+LINKEDLIST(SORTED),9.61e-06,2.8e-07,1.72e-06,2.7e-07
+LIST(STL),2.455e-05,5.64e-06,0.00019139,1.126e-05
+BST(ITERATIVE),9.57e-06,3.1e-07,2.6e-07,1.1e-06
+BST(STL),2.349e-05,2.52e-06,2.31e-06,4.88e-06
+HASHTABLES(chaining through Division),3.813e-05,4.24e-06,5.7e-05,8.92e-06
+HASHTABLES(chaining through multipication),3.82e-05,4.24e-06,5.774e-05,8.75e-06
+HASHTABLES(openaddressing through linear probing),7.18e-06,3.5e-07,2.56e-06,7.7e-07
+HASHTABLES(openaddressing through Quadratic probing), 1.295e-05, 3.2e-07, 3.77e-06, 8.1e-07
+HASHTABLES(openaddressing through Double-Hashing),1.369e-05,3.4e-07,2.56e-06,9.2e-07
+HASHTABLES(STL),1.882e-05,2.14e-06,1.97e-06,1.55e-06
